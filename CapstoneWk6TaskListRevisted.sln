@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapstoneWk6TaskListRevisted", "CapstoneWk6TaskListRevisted\CapstoneWk6TaskListRevisted.csproj", "{9F8A4F4E-D7F4-4372-AEA5-8F274CE8C706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F8A4F4E-D7F4-4372-AEA5-8F274CE8C706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8A4F4E-D7F4-4372-AEA5-8F274CE8C706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8A4F4E-D7F4-4372-AEA5-8F274CE8C706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8A4F4E-D7F4-4372-AEA5-8F274CE8C706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F809BC31-4F05-47C7-9FCD-A8CDF46F8EC6}
+	EndGlobalSection
+EndGlobal

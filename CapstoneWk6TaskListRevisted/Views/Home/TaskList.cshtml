@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Tasks";
+}
+
+<h2>Tasks</h2>
+
+
+<h3>@ViewBag.Message</h3>
+<table class="table">
+    <tr>
+        <th>UserName</th>
+        <th>Description</th>
+        <th>DueDate</th>
+        <th>Status</th>
+        <th>TaskId</th>
+    </tr>
+        @foreach (var c in ViewBag.TaskList)
+    {
+    <tr>
+        <td>@c.UserName</td>
+        <td>@c.Description</td>
+        <td>@c.DueDate</td>
+        <td>@c.Status</td>
+        <td>@c.TaskID</td>
+        <td><a href="/Home/AddTask">Add</a></td>
+        <td><a href="/Home/DeleteTask?TaskID=@c.TaskID" onclick="return confirm('Are you sure?')">Delete</a></td>
+        <td><a href="/Home/ChangeStatus?TaskID=@c.TaskID">Change Status</a></td>
+
+    </tr>
+    }
+</table>
+

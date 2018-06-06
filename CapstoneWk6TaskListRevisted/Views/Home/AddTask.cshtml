@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "AddTask";
+}
+
+<h2>AddTask</h2>
+
+<form action="/Home/AddNewTask" method="post">
+    UserName: <input type="text" name="UserName" /><br />
+    Description: <input type="text" name="Description" /><br />
+    DueDate: <input type="date" name="DueDate" /><br />
+    Status: <div class="custom-select" style="width:200px;">
+    <select name="Status">
+   
+        <option value="Incomplete">Incomplete</option>
+        <option value="Complete">Complete</option>
+        </select>
+        </div>
+        <br />
+        TaskID:
+        <input type="number" name="TaskID" />
+        <br />
+
+        <input type="submit" value="Add" />
+
+
+
+</form>
+
